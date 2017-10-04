@@ -58,6 +58,10 @@ const props = {
     twoWay: true,
     default: true,
   },
+  options: {
+    type: Object,
+    optimized: true
+  }
 };
 
 const events = [

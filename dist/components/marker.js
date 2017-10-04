@@ -78,6 +78,10 @@ var props = {
   visible: {
     twoWay: true,
     default: true
+  },
+  options: {
+    type: Object,
+    optimized: true
   }
 };
 
